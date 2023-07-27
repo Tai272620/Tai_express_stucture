@@ -16,3 +16,12 @@
 3/ bộ thư viện babel: npm i @babel/cli @babel/core @babel/preset-env @babel/node
 -> kích hoạt chuyển đổi version ES cao sang ES phù hợp với môi trường
 -> Lưu ý: + phải có file .babel cùng cấp .env + phải cài đặt
+
+## nâng cấp version mysql xampp for macbook
+
+cd /Applications/XAMPP/xamppfiles/bin/
+sudo ./mysql_upgrade
+
+## prisma
+
+cd src => cd databases => cd prisma => npx prisma migrate dev
