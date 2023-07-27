@@ -67,6 +67,7 @@ module.exports = {
                 data: categoryEdited
             }
         } catch (err) {
+            // console.log("err", err)
             return {
                 status: false,
                 message: "Lỗi không xác định!"
